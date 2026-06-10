@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr" prefix=”og: http://ogp.me/ns#”>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sheepe_Design</title>
+    <meta name="description" content="Sheepe Fujitsugu a.k.a Tsuguharu Kondo Official Portfolio Site">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=10.0, user-scalable=yes">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta property="og:site_name" content="Tsuguharu Kondo a.k.a Sheepe Fujitsugu" />
+    <meta property="og:title" content="Tsuguharu Kondo a.k.a Sheepe Fujitsugu" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/ogp.jpg">
+    <meta property="og:description" content="Sheepe Fujitsugu a.k.a Tsuguharu Kondo Official Portfolio Site" />
+  <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+  <!-- icon  -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/book.jpg">  
+  <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Hina+Mincho&family=Kanit:wght@200&family=Noto+Sans+JP&family=Poppins&family=RocknRoll+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- ローディング画面 -->
+    <div id="loadingScreen" class="loadingScreen">
+      <p class="loadingScreen_percent">0%</p>
+    </div>
+
+    <!-- ロゴアニメーション動画オーバーレイ -->
+    <div id="logoIntro" class="logoIntro">
+      <video id="logoIntroVideo" class="logoIntroVideo" muted playsinline>
+        <source src="video/logo_intro.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="container">
+    <!-- header -->
+      <header class="header">
+        <a href="index.html">
+          <img class="headerLogoButton" src="img/sheepe_newlogo_w.png">
+        </a>
+        <div class="headerText_wrap">
+          <div class="headerText_items">
+            <ul>
+              <li class="headerText_upper">
+                <a href="about.html">About</a>
+              </li>
+              <li class="headerText_under">
+                <a href="works.html">Works</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- hamburgerMenu -->
+        <div class="hamburgerMenuWrap">
+          <div class="hamburgerMenu">
+            <span class="hamburgerMenuButton">
+              <i></i>
+              <i></i>
+            </span>
+            <nav class="hamburgerMenuItemsNav">
+              <div class="hamburgerMenuItemsWrap">
+                <div class="hamburgerMenuLinksWrap">
+                  <a href="about.html" class="hamburgerMenuLinks">
+                    About
+                  </a>
+                  <a href="works.html" class="hamburgerMenuLinks">
+                    Works
+                  </a>
+                  <a href="mailto:sheepefzg@gmail.com" class="hamburgerMenuLinks">
+                    Contact - sheepefzg@gmail.com
+                  </a>
+                </div>
+                <div class="hamburgerMenuSnsWrap">
+                  <div class="hamburgerMenuSnsItem">
+                    <a href="https://twitter.com/SheepeFz2g" target="_blank" rel="noopener noreferrer">
+                      <img class="hamburgerMenuSnsIcon" src="img/logo-white 1.png">
+                    </a>
+                  </div>
+                  <div class="hamburgerMenuSnsItem">
+                    <a href="https://www.instagram.com/sheepe_fz2g/" target="_blank" rel="noopener noreferrer">
+                      <img class="hamburgerMenuSnsIcon" src="img/instagram_white 1.png">
+                    </a>
+                  </div>
+                  <div class="hamburgerMenuSnsItem">
+                    <a href="https://www.youtube.com/@sheepe_fz2g0413" target="_blank" rel="noopener noreferrer">
+                      <img class="hamburgerMenuSnsIcon" src="img/youtube_w 1.png">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <!-- hamburgerMenu -->
+      
+      </header>
+
+    <!-- ここからmv -->
+    <main>
+
+      <!--/video-area-->
+      <div id="backgroundVideo" class="backgroundVideo_wrap">
+          <video id="video" poster="img/backGroundBunner.webp" webkit-playsinline playsinline muted autoplay loop>
+            <source src="video/portfolio.mp4" type="video/mp4">
+            <p>動画を再生できる環境ではありません。</p>
+          </video>
+      </div>
+      <!--/video-area-->
+
+      <div class="mvCenter_wrap">
+        <img class="mvCenterLogoImage" src="img/sheepe_newlogo_w.png">
+          <p class="upperNameText">SHEEPE FUJITSUGU</p>
+          <p class="underNameText">TSUGUHARU KONDO</p>
+          <p class="brandingExplain">
+            #AWESOMAD-ART‘N’DESIGN
+            <br>
+            To convey what I want to convey. A world created with you in mind.
+          </p> 
+      </div>
+
+      <div class="mvContact_wrap">
+        <p class="mvTextTitle">Contact</p>
+        <p class="mvEmail">sheepefzg@gmail.com</p>
+          <div class="mvSnsIcon_wrap">
+            <a href="https://twitter.com/SheepeFz2g" target="_blank" rel="noopener noreferrer">
+              <img class="mvSnsIcon_item" src="img/logo-white 1.png">
+            </a>
+            <a href="https://www.instagram.com/sheepe_fz2g/" target="_blank" rel="noopener noreferrer">
+              <img class="mvSnsIcon_item" src="img/instagram_white 1.png">
+            </a>
+            <a href="https://www.youtube.com/@sheepe_fz2g0413" target="_blank" rel="noopener noreferrer">
+              <img class="mvSnsIcon_item" src="img/youtube_w 1.png">
+            </a>
+          </div>
+      </div>
+
+      <a class="mvLinkToReel_wrap" href="https://youtu.be/pORNeoyrwxc?si=6IxIWXzSrdplpcg6" target="_blank" rel="noopener noreferrer">
+        <p class="mvTextTitle">Reel</p>
+        <img class="vector_1" src="img/Polygon 1.png">
+      </a>
+
+      <div class="scroll_down_group">
+        <div class="scroll_down_wrap">
+          <div class="scroll_line_1">
+          </div>
+            <p class="scroll_down_text">Scroll Down</p>
+          <div class="scroll_line_2">
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- homeAbout -->
+    <section id="homeAbout" class="homeAbout_wrap">
+
+    <div class="homeAboutTitle_wrap">
+      <p class="homeAboutTitle">
+        メインの武器はロゴ&グラフィックデザイン。
+        <br>
+        加えて「映像制作」と「Web制作」の知識と技術を備え、
+        <br>
+        様々なアプローチでデザインし、最も心地よい【答え】を探し出して実現させます。
+      </p>
+    </div>
+
+    <div class="approachIntro_wrap">
+      <div class="approachIntro_movie_wrap">
+        <div class="approachIntro_title_wrap">
+          <p class="approachIntro_title">MOVIE</p>
+          <p class="approachIntro_detail">
+            #Reel
+            <br>
+            #Motion Graphics
+            <br>
+            #Logo Animation
+            <br>
+            #3D Animation / Camera
+            <br>
+            #Direction
+            <br>
+            #MAD / AMV
+            <br>
+            /////////
+            <br>
+            Tools▼
+            <br>
+            Adobe Premiere Pro
+            <br>
+            Adobe After Effect
+            <br>
+            AviUtl
+          </p>
+        </div>
+      </div>
+      <div class="approachIntro_graphic_wrap">
+        <p class="approachIntro_title">GRAPHIC</p>
+        <p class="approachIntro_detail">
+          #Visual Design
+          <br>
+          #Logo Design
+          <br>
+          #Branding
+          <br>
+          #Illustration
+          <br>
+          #Text Design
+          <br>
+          #3D Design
+          <br>
+          /////////
+          <br>
+          Tools▼
+          <br>
+          Adobe Illustrator
+          <br>
+          Adobe Photoshop
+          <br>
+          Adobe In Design
+          <br>
+          Clip Studio Paint
+          <br>
+          AviUtl
+        </p>
+      </div>
+      <div class="approachIntro_web_wrap">
+        <p class="approachIntro_title">WEB</p>
+        <p class="approachIntro_detail">
+          #Web Design
+          <br>
+          #html
+          <br>
+          #css(scss)
+          <br>
+          #JavaScript
+          <br>
+          #PHP
+          <br>
+          #Laravel
+          <br>
+          #Claude Code
+          <br>
+          /////////
+          <br>
+          Tools▼
+          <br>
+          Adobe XD
+          <br>
+          Figma
+          <br>
+          Visual Studio Code
+          <br>
+          PhpStorm
+          <br>
+          WordPress
+        </p>
+      </div>
+    </div>
+
+    </section>
+
+    <!-- homeWorks -->
+    <section id="homeWorks" class="homeWorks_wrap">
+
+      <div class="homeWorks_movie_wrap">
+        <div class="homeWorks_items">
+          <p class="homeWorksCategoly">
+            Solo MAD Movie Works
+          </p>
+          <a href="works/remon.html">
+            <p class="homeWorksTitle">
+              ReMoN - 檸檬 / BURNOUT SYNDROMES
+            </p>
+            <div class="homeWorksVisual">
+              <img src="img/remonMv.webp">
+            </div>
+          </a>
+          <div class="homeWorksButtons_wrap">
+            <div class="homeWorksButton_playWrap">
+              <a href="https://youtu.be/lE5JfIS0b60?si=47jAeRTRoaWHBdPf" target="_blank" rel="noopener noreferrer">
+                <p class="homeWorksButtonText">
+                  Play
+                </p>
+                <img class="homeWorksButtonAfterVector" src="img/Polygon 1.png">
+              </a>
+            </div>
+            <div class="homeWorksButton_moreWrap">
+              <a href="works/remon.html" class="work_index_linkbtnB">
+                <p class="homeWorksButtonText">
+                  More
+                </p>
+                <img class="homeWorksButtonAfterVector" src="img/Polygon 1.png">
+              </a>
+            </div>
+          </div>
+          <div class="scroll_line_3">
+          </div>
+        </div>
+      </div> 
+
+      <div class="homeWorks_graphic_wrap">
+        <div class="homeWorks_items">
+          <p class="homeWorksCategoly">
+            Visual, Logo, 3D Design
+          </p>
+          <a href="works/HKNWGrphcDsgn.html">
+            <p class="homeWorksTitle">
+              HAKONIWA Visual Designs 2325
+            </p>
+            <div class="homeWorksVisual">
+              <img src="img/HKNWVisuals2325/hknwVisualsMv.webp">
+            </div>
+          </a>
+          <div class="homeWorksButtons_wrap">
+            <!--
+            <div class="homeWorksButton_playWrap">
+              <a href="https://hakoniwa-creatorsring.hateblo.jp/entry/MDSM2026" target="_blank" rel="noopener noreferrer">
+                <p class="homeWorksButtonText">
+                  Go
+                </p>
+                <img class="homeWorksButtonAfterVector" src="img/Polygon 1.png">
+              </a>
+            </div>
+            -->
+            <div class="homeWorksButton_moreWrap">
+              <a href="works/HKNWGrphcDsgn.html" class="work_index_linkbtnB">
+                <p class="homeWorksButtonText">
+                  More
+                </p>
+                <img class="homeWorksButtonAfterVector" src="img/Polygon 1.png">
+              </a>
+            </div>
+          </div>
+          <div class="scroll_line_3">
+          </div>
+        </div>
+      </div> 
+
+      <div class="homeWorks_web_wrap">
+        <div class="homeWorks_items">
+          <p class="homeWorksCategoly">
+            Web Design & Coding
+          </p>
+          <a href="works/portforioSite.html">
+            <p class="homeWorksTitle">
+              Portfolio Site
+            </p>
+            <div class="homeWorksVisual">
+              <img src="img/portfolioMvImg.webp">
+            </div>
+          </a>
+          <div class="homeWorksButtons_wrap">
+            <div class="homeWorksButton_playWrap">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <p class="homeWorksButtonText">
+                  Go
+                </p>
+                <img class="homeWorksButtonAfterVector" src="img/Polygon 1.png">
+              </a>
+            </div>
+            <div class="homeWorksButton_moreWrap">
+              <a href="works/portforioSite.html" class="work_index_linkbtnB">
+                <p class="homeWorksButtonText">
+                  More
+                </p>
+                <img class="homeWorksButtonAfterVector" src="img/Polygon 1.png">
+              </a>
+            </div>
+          </div>
+          <div class="scroll_line_3">
+          </div>
+        </div>
+      </div> 
+    
+    </section>
+
+    <!-- ここからフッター -->
+    <footer class="footer">
+
+      <a href="works.html" class="footerOtherWorksWrap">
+        <p class="footerOtherWorksText">Other Works▷</p>
+      </a>
+
+      <div class="footerBottomsWrap">
+        <div class="footerCopyrightWrap">
+          <a href="index.html">
+            <img class="footerLogoSheeepe" src="img/sheepe_newlogo_w.png">
+          </a>
+          <p class="footerCopyright">
+            ©︎sheepe2026
+          </p>
+        </div>
+        <div class="footerItemsWrap">
+          <a href="about.html" class="footerItemsText">
+            About
+          </a>
+          <div class="footer-line"></div>
+          <a href="works.html" class="footerItemsText">
+            Works
+          </a>
+          <div class="footer-line"></div>
+          <p class="footerItemsText">
+            Contact
+          </p>
+          <img class="footerItemsVector" src="img/Polygon 9.png">
+          <a href="mailto:sheepefzg@gmail.com" class="footerItemsText">
+            sheepefzg@gmail.com
+          </a>
+          <div class="footerItemsSnsWrap">
+            <a href="https://twitter.com/SheepeFz2g" target="_blank" rel="noopener noreferrer">
+              <img class="footerItemsSnsLogo" src="img/logo-white 1.png">
+            </a>
+            <a href="https://www.instagram.com/sheepe_fz2g/" target="_blank" rel="noopener noreferrer">
+              <img class="footerItemsSnsLogo" src="img/instagram_white 1.png">
+            </a>
+            <a href="https://www.youtube.com/@sheepe_fz2g0413" target="_blank" rel="noopener noreferrer">
+              <img class="footerItemsSnsLogo" src="img/youtube_w 1.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- ページトップボタン -->
+      <a href="#" class="pageTopBtn" id="pageTopBtn" aria-label="ページトップへ">
+        <div class="pageTopBtn_arrow"></div>
+        <p class="pageTopBtn_text">TOP</p>
+      </a>
+    </footer>
+    <!-- jsを読み込む -->
+    <script src="js/common.js" type="text/javascript"></script>
+    </div>
+  </body>
+</html>
